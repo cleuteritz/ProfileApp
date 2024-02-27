@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "945e18b9-23a9-417b-8126-7e7ac6783a6c",
+                "Y": 24,
+                "RelativeX": 0,
+                "RelativeY": 24,
+                "position": "absolute",
+                "edgeOffsets": 24,
+                "style": {
+                    "position": "absolute",
+                    "left": "26.266666666666666%",
+                    "top": "19.519537106446776%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "21079ca4-3a33-476e-8218-f88a984270e1",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
@@ -69,10 +99,10 @@
                 "Height": 29,
                 "Width": 119,
                 "Visible": true,
-                "X": 225,
-                "Y": 13,
-                "RelativeX": 225,
-                "RelativeY": 13,
+                "X": 236,
+                "Y": 113,
+                "RelativeX": 236,
+                "RelativeY": 113,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -103,7 +133,7 @@
                 "Disabled": false,
                 "ParentId": "945e18b9-23a9-417b-8126-7e7ac6783a6c",
                 "position": "absolute",
-                "edgeOffsets": 13
+                "edgeOffsets": 113
             },
             "children": [],
             "id": "5ce9d4c1-b552-4645-a880-82e5f673f75b",
@@ -119,10 +149,10 @@
                 "Height": 55,
                 "Width": 104,
                 "Visible": true,
-                "X": 18,
-                "Y": 0,
-                "RelativeX": 18,
-                "RelativeY": 0,
+                "X": 16,
+                "Y": 99,
+                "RelativeX": 16,
+                "RelativeY": 99,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -149,7 +179,7 @@
                 "capInsets": {},
                 "ParentId": "e3058216-32c2-43bf-8406-edf2a8c5f686",
                 "position": "absolute",
-                "edgeOffsets": 0
+                "edgeOffsets": 99
             },
             "children": [],
             "id": "24e235f7-67c9-4cda-ab35-fe4fe1395faf",
@@ -742,10 +772,10 @@
                 "Height": 35,
                 "Width": 120,
                 "Visible": true,
-                "X": 225,
-                "Y": 56,
-                "RelativeX": 225,
-                "RelativeY": 56,
+                "X": 235,
+                "Y": 185,
+                "RelativeX": 235,
+                "RelativeY": 185,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -776,7 +806,7 @@
                 "Disabled": false,
                 "ParentId": "945e18b9-23a9-417b-8126-7e7ac6783a6c",
                 "position": "absolute",
-                "edgeOffsets": 56
+                "edgeOffsets": 185
             },
             "children": [],
             "id": "c5ec2b2e-811f-4009-9dbf-f1d646ff27b8",
@@ -797,10 +827,10 @@
                 "Height": 26,
                 "Width": 100,
                 "Visible": true,
-                "X": 21,
-                "Y": 61,
-                "RelativeX": 21,
-                "RelativeY": 61,
+                "X": 18,
+                "Y": 189,
+                "RelativeX": 18,
+                "RelativeY": 189,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -841,7 +871,7 @@
                 },
                 "ParentId": "945e18b9-23a9-417b-8126-7e7ac6783a6c",
                 "position": "absolute",
-                "edgeOffsets": 61,
+                "edgeOffsets": 189,
                 "children": "No Name"
             },
             "children": [],
